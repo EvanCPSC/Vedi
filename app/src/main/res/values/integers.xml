@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="increment_min">200</integer>
+    <integer name="increment_max">5000</integer>
+    <integer name="increment_value">200</integer>
+</resources>

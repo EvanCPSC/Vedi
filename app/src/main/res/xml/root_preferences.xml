@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:title="@string/settings_header">
+
+    <SwitchPreferenceCompat
+        app:defaultValue="false"
+        app:key="@string/convert_key"
+        app:persistent="true"
+        app:summaryOff="Currently in Miles"
+        app:summaryOn="Currently in Kilometers"
+        app:title="@string/convert_title" />
+    <SeekBarPreference
+        android:max="@integer/increment_max"
+        app:defaultValue="@integer/increment_value"
+        app:key="@string/increment_key"
+        app:min="@integer/increment_min"
+        app:persistent="true"
+        app:seekBarIncrement="@integer/increment_value"
+        app:showSeekBarValue="true"
+        app:summary="In Milliseconds"
+        app:title="@string/increment_title" />
+
+</PreferenceScreen>

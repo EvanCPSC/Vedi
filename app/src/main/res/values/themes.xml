@@ -1,0 +1,29 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!-- Base application theme. -->
+<style name="Theme.Vedi" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/vedi_lightblue</item>
+    <item name="colorPrimaryVariant">@color/vedi_navy</item>
+    <item name="colorOnPrimary">@color/black</item>
+    <!-- Secondary brand color. -->
+    <item name="colorSecondary">@color/vedi_lightblue</item>
+    <item name="colorSecondaryVariant">@color/vedi_navy</item>
+    <item name="colorOnSecondary">@color/black</item>
+    <!-- Status bar color. -->
+    <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    <!-- Customize your theme here. -->
+</style>
+
+<style name="Theme.Vedi.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+</style>
+
+<style name="Theme.Vedi.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+<style name="Theme.Vedi.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="graphDialogDimens" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowMinWidthMajor">80%</item>
+    </style>
+</resources>
